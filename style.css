@@ -61,7 +61,7 @@ main {
 #funnyImages {
     border-top: 4px solid orangered;
     border-bottom: 4px solid orangered;
-    width: 10rem;
+    max-width: 10rem;
     height:100%;
 }
 
@@ -88,6 +88,16 @@ main {
 
 #midText {
     margin: 10px 0 10px 0;
+}
+
+#odintriCover {
+    margin-top: 10px;
+    border: 4px dashed orchid;
+}
+
+#odintriCover>img {
+    height: 37rem;
+    padding: 5px 5px 1px 5px;
 }
 
 footer {
